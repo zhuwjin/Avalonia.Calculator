@@ -21,7 +21,7 @@
                     MaterialOpacity="0.65" />
             </ExperimentalAcrylicBorder.Material>
         </ExperimentalAcrylicBorder>
-        <Label Content="{Binding MyText}"></Label>
-        <Button Click="Button_OnClick" Height="20" Width="50"></Button>
+        <!-- <Label Content="{Binding MyText}" HorizontalAlignment="Center"></Label> -->
+        <Button Background="Transparent" BorderBrush="Transparent" FontFamily="等距更纱黑体 SC" Click="Button_OnClick" Height="60" Width="100" HorizontalAlignment="Center" Content="Hello World" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"></Button>
     </Panel>
 </Window>
