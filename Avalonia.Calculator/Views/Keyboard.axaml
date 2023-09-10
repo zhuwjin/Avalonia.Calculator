@@ -1,0 +1,109 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+             x:Class="Avalonia.Calculator.Views.Keyboard">
+
+    <Grid>
+        <Grid.RowDefinitions>*,*,*,*,*,*</Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>*,*,*,*</Grid.ColumnDefinitions>
+        <Button Grid.Row="0" Grid.Column="0" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"
+                HorizontalContentAlignment="Center" VerticalContentAlignment="Center">
+            %
+        </Button>
+        <Button Grid.Row="0" Grid.Column="1" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"
+                HorizontalContentAlignment="Center" VerticalContentAlignment="Center">
+            CE
+        </Button>
+        <Button Grid.Row="0" Grid.Column="2" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"
+                HorizontalContentAlignment="Center" VerticalContentAlignment="Center">
+            C
+        </Button>
+        <Button Grid.Row="0" Grid.Column="3" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"
+                HorizontalContentAlignment="Center" VerticalContentAlignment="Center">
+            XXX
+        </Button>
+        <Button Grid.Row="1" Grid.Column="0" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"
+                HorizontalContentAlignment="Center" VerticalContentAlignment="Center">
+            1/x
+        </Button>
+        <Button Grid.Row="1" Grid.Column="1" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"
+                HorizontalContentAlignment="Center" VerticalContentAlignment="Center">
+            x^2
+        </Button>
+        <Button Grid.Row="1" Grid.Column="2" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"
+                HorizontalContentAlignment="Center" VerticalContentAlignment="Center">
+            x
+        </Button>
+        <Button Grid.Row="1" Grid.Column="3" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"
+                HorizontalContentAlignment="Center" VerticalContentAlignment="Center">
+            /
+        </Button>
+        <Button Grid.Row="2" Grid.Column="0" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"
+                HorizontalContentAlignment="Center" VerticalContentAlignment="Center">
+            7
+        </Button>
+        <Button Grid.Row="2" Grid.Column="1" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"
+                HorizontalContentAlignment="Center" VerticalContentAlignment="Center">
+            8
+        </Button>
+        <Button Grid.Row="2" Grid.Column="2" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"
+                HorizontalContentAlignment="Center" VerticalContentAlignment="Center">
+            9
+        </Button>
+        <Button Grid.Row="2" Grid.Column="3" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"
+                HorizontalContentAlignment="Center" VerticalContentAlignment="Center">
+            x
+        </Button>
+        <Button Grid.Row="3" Grid.Column="0" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"
+                HorizontalContentAlignment="Center" VerticalContentAlignment="Center">
+            4
+        </Button>
+        <Button Grid.Row="3" Grid.Column="1" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"
+                HorizontalContentAlignment="Center" VerticalContentAlignment="Center">
+            5
+        </Button>
+        <Button Grid.Row="3" Grid.Column="2" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"
+                HorizontalContentAlignment="Center" VerticalContentAlignment="Center">
+            6
+        </Button>
+        <Button Grid.Row="3" Grid.Column="3" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"
+                HorizontalContentAlignment="Center" VerticalContentAlignment="Center">
+            -
+        </Button>
+        <Button Grid.Row="4" Grid.Column="0" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"
+                HorizontalContentAlignment="Center" VerticalContentAlignment="Center">
+            1
+        </Button>
+        <Button Grid.Row="4" Grid.Column="1" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"
+                HorizontalContentAlignment="Center" VerticalContentAlignment="Center">
+            2
+        </Button>
+        <Button Grid.Row="4" Grid.Column="2" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"
+                HorizontalContentAlignment="Center" VerticalContentAlignment="Center">
+            3
+        </Button>
+        <Button Grid.Row="4" Grid.Column="3" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"
+                HorizontalContentAlignment="Center" VerticalContentAlignment="Center">
+            +
+        </Button>
+        <Button Grid.Row="5" Grid.Column="0" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"
+                HorizontalContentAlignment="Center" VerticalContentAlignment="Center">
+            +/-
+        </Button>
+        <Button Grid.Row="5" Grid.Column="1" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"
+                HorizontalContentAlignment="Center" VerticalContentAlignment="Center">
+            0
+        </Button>
+        <Button Grid.Row="5" Grid.Column="2" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"
+                HorizontalContentAlignment="Center" VerticalContentAlignment="Center">
+            .
+        </Button>
+        <Button Grid.Row="5" Grid.Column="3" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"
+                HorizontalContentAlignment="Center" VerticalContentAlignment="Center">
+            =
+        </Button>
+    </Grid>
+
+</UserControl>

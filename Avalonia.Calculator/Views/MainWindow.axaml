@@ -3,6 +3,8 @@
         xmlns:vm="using:Avalonia.Calculator.ViewModels"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:calculator="clr-namespace:Avalonia.Calculator"
+        xmlns:views="clr-namespace:Avalonia.Calculator.Views"
         mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
         x:Class="Avalonia.Calculator.Views.MainWindow"
         x:DataType="vm:MainWindowViewModel"
@@ -22,6 +24,7 @@
             </ExperimentalAcrylicBorder.Material>
         </ExperimentalAcrylicBorder>
         <!-- <Label Content="{Binding MyText}" HorizontalAlignment="Center"></Label> -->
-        <Button Background="Transparent" BorderBrush="Transparent" FontFamily="等距更纱黑体 SC" Click="Button_OnClick" Height="60" Width="100" HorizontalAlignment="Center" Content="Hello World" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"></Button>
+        <!-- <Button Background="Transparent" BorderBrush="Transparent" FontFamily="等距更纱黑体 SC" Click="Button_OnClick" Height="60" Width="100" HorizontalAlignment="Center" Content="Hello World" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"></Button> -->
+        <views:Keyboard></views:Keyboard>
     </Panel>
 </Window>
